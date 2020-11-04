@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dotenv : Are the environment variables not loading in the `production` environment in your Rails application?"
+title: "Dotenv : Are the environment variables not loading in the `production` environment of your Rails application?"
 article: 6
 ---
 
