@@ -7,7 +7,7 @@ While building a new docker based staging server for a legacy rails `5.0` app, I
 
 [![Your bundle is locked to mimemagic](/public/images/a-009-1.png)](/public/images/a-009-1.png)
 
-Clearly the gem is not found on [rubygems.org](https://rubygems.org/){:target="_blank"}. I recently [read on ruby weekly](https://rubyweekly.com/issues/545){:target="_blank"} about licencing issue so I need to upgrade the mimemagic gem to get goin.
+Clearly the gem is not found on [rubygems.org](https://rubygems.org/){:target="_blank"}. I recently [read on ruby weekly](https://rubyweekly.com/issues/545){:target="_blank"} about licencing issue so I need to upgrade the mimemagic gem to make progress.
 
 Our app is using gem `paperclip 4.3.7` which depends on `mimemagic 0.3.0`. So we have no way but to upgrade the paperclip to fix the mimemagic issue. As such paperclip upgrade is easy but can become complicated in some instances but we took a call and decided to upgrade it to the highest version of `paperclip 6.1.0` and so the AWS-SDK as well.
 
